@@ -20,14 +20,22 @@ Grandes telas: acima de 1200px
 
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 35%;
         height: 100%;
         background-position: center center;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 70%; 
+        width: 65%; 
+    }
+
+    div#formulario > h1 {
+        font-size: 1.6em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
     }
 }
 
@@ -41,14 +49,21 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
 
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
